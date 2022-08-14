@@ -1,0 +1,267 @@
+.myNavBar {
+  background-color: aqua;
+  text-decoration: none;
+  height: 50px;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  line-height: 50px;
+  display:inline;
+}
+
+.myNavBar a {
+  text-decoration: none;
+  padding: 4px;
+  text-align: center;
+  padding: 26px;
+  line-height: 3;
+  font-family: roboto;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.first {
+   text-align: center;
+   font-size: medium;
+   color: darksalmon;
+   text-decoration: none;
+   width: 45%;
+   margin: auto;
+}
+
+.first p {
+  color: rgb(72, 226, 182);
+  font-size: 110%;
+}
+
+.second {
+  background-color: #fafa;
+  border-radius: 15px;
+  margin: 10px;
+  text-align: center;
+  padding: 10px 15px;
+}
+
+.heading {
+  letter-spacing: 4px;
+  /* text-decoration: none; */
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: magenta;
+  display: block;
+}
+
+.second > 
+p {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: medium;
+  color: black;
+  line-height: 25px;
+  font-style: italic;
+  font-size: 110%;
+  position:relative;
+  padding:1.2px;
+}
+
+.paragraph {
+  padding-left: 40%;
+}
+
+img {
+  width: 60%;
+  padding-left: 25%;
+  height: 160%;
+}
+body {
+  box-sizing: border-box;
+  position: relative;
+  line-height: 1.5;
+  font-family: roboto;
+}
+
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  letter-spacing: 3px;
+}
+
+.myImage {
+  width: 45%;
+  margin: auto;
+  padding-top: 20px;
+  height: 75%;
+  
+}
+
+div.center {
+  text-align: center;
+}
+
+div.knowME {
+  background-color: thistle;
+  text-align: center;
+  /* position: absolute; */
+  text-transform: capitalize;
+  font-size: medium;
+  font-family: roboto;
+  border-radius: 4px;
+  font-weight: 400;
+}
+
+li {
+  list-style: none;
+  border: 1px solid white;
+  border-radius: 14px;
+}
+
+
+.container {
+  justify-content: center;
+  text-align: center;
+}
+
+
+/* /* .skills {
+  /* float: left; */
+} */
+/* 
+.contactbtn {
+  float: right;
+} */
+
+.linerow  {
+  list-style: none;
+  font-size: 0;
+  height: 13px;
+
+}
+
+.linerow li{
+  display: inline-block;
+  border-radius: 3px;
+  width: 65px;
+  height: 40px;
+  margin-top: 3px;
+  background: #fafa;
+  outline :1px solid #000;
+  padding: 6px;
+  margin-left: 6PX;
+}
+
+.btn {
+  display:inline-block;
+  background: aquamarine;
+  color :#333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  border-radius: 4px;
+
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+/* .projects {
+  text-align: center;
+}
+
+.myimg {
+  width: 90%;
+  justify-items: center;
+  margin-right: 30px;
+} */
+
+.table {
+  text-align: center;
+  display: inline;
+
+}
+
+table {
+  width:100%;
+  color: deepskyblue;
+}
+
+.table h2 {
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: sienna;
+}
+
+.marketing {
+  text-decoration: underline;
+}
+
+#contact {
+  background-color: coral;
+  margin: 21px;
+  padding: 17px;
+}
+
+label {
+  display:inline-block;
+}
+
+input {
+  width:100%;
+  padding: 6px;
+  border: none;
+  margin: 5px 0px 0px 0px;
+  height: 30px;
+}
+
+.contact {
+  text-align: justify;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.submit {
+  width:100%;
+  background-color: lawngreen;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+  align-content: center;
+}
+
+.btn2 {
+  background-color: lawngreen;
+  padding: 14px 19px;
+  cursor: pointer;
+}
+
+.work {
+  text-align: center;
+  background-color: #fafa;
+  border: 12px;
+  border-radius: 3px;
+  font-weight: 400;
+  text-decoration: solid;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color:hotpink;
+}
+
+.copyright {
+  color: #333;
+  background-color: black;
+}
+
